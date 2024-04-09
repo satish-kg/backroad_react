@@ -45,3 +45,112 @@ export const tourData = [
         cost : 3300,
     }
 ];
+
+export const serviceData = [
+    {
+        id : 1,
+        icon : 'fas fa-wallet fa-fw',
+        title : 'saving money',
+        text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+    {
+        id : 2,
+        icon : 'fas fa-tree fa-fw',
+        title : 'endless hiking',
+        text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    },
+    {
+        id : 3,
+        icon : 'fas fa-socks fa-fw',
+        title : 'amazing comfort',
+        text : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, officia.',
+    }
+]
+
+export const navbarLinks = [
+    {
+        id : 1,
+        title : 'home',
+        link : '#home',
+    },
+    {
+        id : 2,
+        title : 'about',
+        link : '#about',
+    },
+    {
+        id : 3,
+        title : 'services',
+        link : '#services',
+    },
+    {
+        id : 4,
+        title : 'tours',
+        link : '#tours',
+    }
+];
+
+export const navbarIcons = [
+    {
+        id : 1,
+        icon : 'fab fa-facebook',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    },
+    {
+        id : 2,
+        icon : 'fab fa-twitter',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    },
+    {
+        id : 3,
+        icon : 'fab fa-squarespace',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    }
+]
+
+export const footerLinks = [
+    {
+        id : 1,
+        title : 'home',
+        link : '#home',
+    },
+    {
+        id : 2,
+        title : 'about',
+        link : '#about',
+    },
+    {
+        id : 3,
+        title : 'services',
+        link : '#services',
+    },
+    {
+        id : 4,
+        title : 'tours',
+        link : '#tours',
+    }
+]
+
+export const footerIcons = [
+    {
+        id : 1,
+        icon : 'fab fa-facebook',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    },
+    {
+        id : 2,
+        icon : 'fab fa-twitter',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    },
+    {
+        id : 3,
+        icon : 'fab fa-squarespace',
+        target : '_blank',
+        link : 'https://www.twitter.com',
+    }
+]

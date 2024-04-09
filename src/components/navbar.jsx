@@ -1,4 +1,7 @@
 import React from "react"
+import {navbarLinks} from '../data';
+import {navbarIcons} from '../data';
+
 const navbar = () => {
     return (
         <div>
@@ -12,38 +15,31 @@ const navbar = () => {
                     </div>
                     {/* <!-- left this comment on purpose --> */}
                     <ul className="nav-links" id="nav-links">
-                    <li>
-                        <a href="#home" className="nav-link"> home </a>
-                    </li>
-
-                    <li>
-                        <a href="#about" className="nav-link"> about </a>
-                    </li>
-
-                    <li>
-                        <a href="#services" className="nav-link"> services </a>
-                    </li>
-
-                    <li>
-                        <a href="#tours" className="nav-link"> tours</a>
-                    </li>
+                        {navbarLinks.map((linkItem)=>{
+                            const {id, title, link} = linkItem;
+                            return(
+                                <div key={id}>
+                                    <li>
+                                        <a href={link} className="nav-link">{title}</a>
+                                    </li>
+                                </div>
+                            )
+                        })}
                     </ul>
 
                     <ul className="nav-icons">
-                        <li>
-                            <a href="https://www.twitter.com" target="_blank" className="nav-icon">
-                            <i className="fab fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com" target="_blank" className="nav-icon">
-                            <i className="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.twitter.com" target="_blank" className="nav-icon">
-                            <i className="fab fa-squarespace"></i>
-                            </a>
-                        </li>
+                        {navbarIcons.map((iconItem)=>{
+                            const {id, icon, target, link} = iconItem;
+                            return(
+                                <div key={id}>
+                                    <li>
+                                        <a href={link} target={target} className="nav-icon">
+                                        <i className={icon}></i>
+                                        </a>
+                                    </li>
+                                </div>
+                            )
+                        })}
                     </ul>
                 </div>
             </nav>
