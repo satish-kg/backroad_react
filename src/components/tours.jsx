@@ -1,14 +1,13 @@
 import React from 'react';
+import Title from './title';
 import {tourData} from '../data';
+// import tour6img from '../images/tour-6.jpeg';
 
 const tours = () => {
     return(
         <>
             <section className="section" id="tours">
-                <div className="section-title">
-                    <h2>featured <span>tours</span></h2>
-                    <img src='../images/tour-6.jpeg' alt="added tour image" className='tour-img' />
-                </div>
+                <Title title="featured" subtitle="tours" />
 
                 <div className="section-center featured-center">
                     {tourData.map((data)=>{

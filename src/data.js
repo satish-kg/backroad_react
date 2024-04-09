@@ -1,7 +1,9 @@
-import tour1 from './images/tour-1.jpeg'
-import tour2 from './images/tour-2.jpeg'
-import tour3 from './images/tour-3.jpeg'
-import tour4 from './images/tour-4.jpeg'
+import tour1 from '../src/images/tour-1.jpeg'
+import tour2 from '../src/images/tour-2.jpeg'
+import tour3 from '../src/images/tour-3.jpeg'
+import tour4 from '../src/images/tour-4.jpeg'
+import tour5 from '../src/images/tour-5.jpeg'
+import tour6 from '../src/images/tour-6.jpeg'
 
 export const tourData = [
     {
@@ -43,6 +45,26 @@ export const tourData = [
         location : 'kenya',
         duration : 6,
         cost : 3300,
+    },
+    {
+        id : 5,
+        image : tour5,
+        date : 'march 15th, 2018',
+        title : 'african safari',
+        about : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+        location : 'south africa',
+        duration : 6,
+        cost : 3300,
+    },
+    {
+        id : 6,
+        image : tour6,
+        date : 'july 7th, 2017',
+        title : 'incredible india',
+        about : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+        location : 'india',
+        duration : 5,
+        cost : 7700,
     }
 ];
 

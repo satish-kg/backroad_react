@@ -1,6 +1,6 @@
 import React from "react"
-import {navbarLinks} from '../data';
-import {navbarIcons} from '../data';
+import logo from '../images/logo.svg'
+import {navbarLinks, navbarIcons} from '../data';
 
 const navbar = () => {
     return (
@@ -8,7 +8,7 @@ const navbar = () => {
             <nav className="navbar">
                 <div className="nav-center">
                     <div className="nav-header">
-                    <img src='./images/logo.svg' className="nav-logo" alt="backroads" />
+                    <img src={logo} className="nav-logo" alt="backroads" />
                     <button type="button" className="nav-toggle" id="nav-toggle">
                         <i className="fas fa-bars"></i>
                     </button>
