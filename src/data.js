@@ -1,9 +1,9 @@
-import tour1 from '../src/images/tour-1.jpeg'
-import tour2 from '../src/images/tour-2.jpeg'
-import tour3 from '../src/images/tour-3.jpeg'
-import tour4 from '../src/images/tour-4.jpeg'
-import tour5 from '../src/images/tour-5.jpeg'
-import tour6 from '../src/images/tour-6.jpeg'
+import tour1 from './images/tour-1.jpeg'
+import tour2 from './images/tour-2.jpeg'
+import tour3 from './images/tour-3.jpeg'
+import tour4 from './images/tour-4.jpeg'
+import tour5 from './images/tour-5.jpeg'
+import tour6 from './images/tour-6.jpeg'
 
 export const tourData = [
     {
