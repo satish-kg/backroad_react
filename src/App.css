@@ -596,3 +596,6 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+html{
+  scroll-behavior: smooth;
+}
